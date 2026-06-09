@@ -1,11 +1,17 @@
 import { Analytics } from '@vercel/analytics/next'
 import type { Metadata } from 'next'
 import { Vazirmatn } from 'next/font/google'
+import { Lalezar } from 'next/font/google'
 import { Geist_Mono } from 'next/font/google'
 import './globals.css'
 
 const vazir = Vazirmatn({
   variable: '--font-vazir',
+  subsets: ['arabic', 'latin'],
+})
+const lalezar = Lalezar({
+  variable: '--font-lalezar',
+  weight: '400',
   subsets: ['arabic', 'latin'],
 })
 const geistMono = Geist_Mono({
@@ -29,7 +35,7 @@ export default function RootLayout({
     <html
       lang="fa"
       dir="rtl"
-      className={`${vazir.variable} ${geistMono.variable} bg-background`}
+      className={`${vazir.variable} ${lalezar.variable} ${geistMono.variable} bg-background`}
     >
       <body className="font-sans antialiased">
         {children}

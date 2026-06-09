@@ -54,8 +54,8 @@ export function Hero() {
         <div className="relative">
           <div className="overflow-hidden rounded-3xl border border-border shadow-xl">
             <img
-              src="/hero-europe.png"
-              alt="زوج جوان ایرانی در حال نگاه به آینده‌ای روشن در اروپا"
+              src="/brandenburg-gate.png"
+              alt="دروازه براندنبورگ در برلین، نماد مهاجرت به آلمان"
               className="h-full w-full object-cover"
             />
           </div>
