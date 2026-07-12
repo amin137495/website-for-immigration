@@ -6,7 +6,6 @@ const links = [
   { href: '#services', label: 'خدمات' },
   { href: '#german', label: 'دوره آلمانی' },
   { href: '#process', label: 'مراحل کار' },
-  { href: '#testimonials', label: 'نظرات' },
   { href: '#booking', label: 'رزرو مشاوره' },
 ]
 
